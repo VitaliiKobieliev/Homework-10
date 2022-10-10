@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.header {
+    padding: 26px 0 26px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+
+    width: 100%;
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header .container {
+    overflow: hidden;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.header .img-holder  img{
+    display: flex;
+}
+
+
+.header .header-list {
+    list-style: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.header .header-list ul {
+    list-style-type: none;
+    display: flex;
+    font-family: 'Francois One';
+    font-size: 16px;
+    padding: 0;
+}
+
+.header .header-list ul li:first-child {
+    margin-right: 50px;
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: black;
+}
+
+.header .header-list ul li {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 106px;
+
+}
