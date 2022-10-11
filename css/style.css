@@ -4,20 +4,22 @@
     box-sizing: border-box;
 }
 
-
 body {
     margin: 0;
     font-weight: 400;
     font-size: 28px;
     line-height: 48px;
+
 }
 
-.header {
-    padding: 26px 0 26px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
+sub {
+    font-family: 'farro';
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    position: absolute;
+
 }
 
 .container {
@@ -26,6 +28,39 @@ body {
     max-width: 1230px;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+
+
+
+h2 {
+    font-family: 'Francois One';
+    font-size: 36px;
+    line-height: 48px;
+    color: black;
+    margin: 0 0 40px;
+    position: relative;
+}
+
+
+
+p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+
+.header {
+    padding: 26px 0 26px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .header .container {
@@ -37,10 +72,9 @@ body {
     display: flex;
 }
 
-.header .img-holder  img{
+.header .img-holder {
     display: flex;
 }
-
 
 .header .header-list {
     list-style: none;
@@ -59,24 +93,56 @@ body {
 }
 
 .header .header-list ul li:first-child {
-    margin-right: 50px;
-    font-family: 'Tourney';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 18px;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: black;
+    margin-right: 20px;
 }
 
 .header .header-list ul li {
     margin-left: 10px;
+}
+
+.main .container {
+    margin-top: 100px;
+}
+
+.main .container .hero-section .bar {
     display: flex;
-    align-items: center;
-    padding: 0px;
-    font-weight: 600;
-    font-size: 22px;
-    margin-bottom: 106px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 80px;
+}
+
+
+.hero-section .container h2 {
+    width: 310px;
+    height: 48px;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    flex: none;
+}
+
+.hero-section .container sub {
+    width: 100px;
+    height: 20px;
+
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+
+    color: #000000;
+}
+
+.container2 h2 {
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.main .container .hero-section .main-text {
+    display: flex;
+    flex-wrap: wrap;
+
+
 
 }
