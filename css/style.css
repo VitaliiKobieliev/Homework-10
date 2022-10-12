@@ -69,13 +69,13 @@ a:hover {
 .nav {
   list-style: none;
   display: inline-block;
-  padding-inline-start: 0;
+  padding-inline-start: 104px;
 }
 .nav-list {
   display: inline;
   text-transform: uppercase;
   font-family: "staatliches";
-  font-size: 22px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.03em;
